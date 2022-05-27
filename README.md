@@ -1,4 +1,4 @@
-# CL Github page
+# CL GitHub Page
 
 This project provides a project landing page for the Cell Ontology.
 
