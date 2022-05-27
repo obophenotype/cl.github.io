@@ -1,6 +1,6 @@
 # CL GitHub Page
 
-This project provides a project landing page for the Cell Ontology.
+This project provides a [project landing page](https://obophenotype.github.io/cl.github.io/) for the Cell Ontology.
 
 Project is based on the [Fresh Template](https://github.com/cssninjaStudio/fresh).
 
