@@ -163,15 +163,20 @@ const buildTasks = [
   resetPages,
   parallel(
     copyData,
-    concatCssPlugins, 
-    compileSCSS, 
-    javascriptBuild, 
-    devImages, 
+    concatCssPlugins,
+    compileSCSS,
+    javascriptBuild,
+    devImages,
     compileHTML
   ),
 ]
 
 export const build = (done) => {
+  series(devClean, resetPages, parallel(...buildTasks, devImages))();
+  done();
+};
+
+export const prod = (done) => {
   series(devClean, resetPages, parallel(...buildTasks, devImages))();
   done();
 };
