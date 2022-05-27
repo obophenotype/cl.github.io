@@ -52,7 +52,7 @@
     "build": "gulp prod",
     "prod": "gulp prod",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
